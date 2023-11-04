@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo2.png"></a>
+        <div class="nav-links" id="navLink">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()""></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's finest university</h1>
+            <p>Learn New Things And Apply In Your Life.We Are Here For  You.Learn New Things And Apply In Your Life.We Are Here For  YouLearn New Things And Apply In Your Life.We Are Here For  YouLearn New Things And Apply In Your Life.We Are Here For  You</p>
+            <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/banner2.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Learn New Things And Apply In Your Life.We Are Here For  You</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made  <i class="fa fa-heart-o"></i> By Amal Ut</p>
+</section>
+<script>
+    var navLinks=document.getElementById("navLink");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
