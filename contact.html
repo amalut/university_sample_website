@@ -55,12 +55,12 @@
                 </span>
             </div>
         </div>
-        <div class="contact-col">
-            <form action="">
-                <input type="text" placeholder="Enter your name" required>
-                <input type="email" placeholder="Enter email address" required>
-                <input type="text" placeholder="Enter subject" required>
-                <textarea rows="8" placeholder="Message" required></textarea>
+        <div class="">
+            <form action="cont.php" method="post">
+                <input name="name" type="text" placeholder="Enter your name" required>
+                <input name="email" type="email" placeholder="Enter email address" required>
+                <input name="subject" type="text" placeholder="Enter subject" required>
+                <textarea name="messsage" rows="8" placeholder="Message" required></textarea>
                 <button type="submit" class="hero-btn blue-btn">Send Message</button>
             </form>
         </div>
